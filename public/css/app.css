@@ -1,0 +1,79 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 100%;    
+}
+
+.button {
+    padding: 20px 40px;
+    border: 0;
+    font-size: inherit;
+    font-weight: 600;
+    background-color: #ccc;
+    color: #777;
+    cursor: pointer;
+}
+
+.upload-form {
+    text-align: center;
+}
+
+.upload-from__button {
+    display: none;
+}
+
+.uploadcare-widget {
+    width: 100%;
+    margin: 40px 0 20px 0;
+}
+
+.uploadcare-widget-button {
+    padding: 20px 40px;
+    font-weight: 600;
+}
+
+.uploadcare-widget-dragndrop-area {
+    padding: 1em;
+    margin-top: -2.3em;
+    border-right: 0;
+}
+
+.thumbnails {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.thumbnails__thumb,
+.thumbnail {
+    width: 300px;
+    margin: 40px 40px 0 40px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, .1);
+    transition: transform .3s ease-in;
+}
+
+.thumbnails__thumb:hover {
+    transform: scale(1.1);
+}
+
+.thumbnails__thumb-image {
+    width: 100%;
+}
+
+.thumbnail {
+    width: auto;
+    height: auto;
+}
+
+.thumbnail__image {
+    max-width: 100%;
+}
